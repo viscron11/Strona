@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <!-- Basic Page Need -->
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- FONT -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+     <!-- CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+
+    <!-- Favicon -->
+     <link rel="icon" type="image/png" href="images/favicon.png">
+	 <script src="https://kit.fontawesome.com/06f7f8d605.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <div class="logo">
+            <h>Portfolio</h>
+        </div>
+    
+
+    <form class="container clearfix">
+	<div id="choice-box">
+	<div class="choice">
+	
+        <label for="all">Wszystkie</label>
+        <input class="nav-menu" id="all" type="radio" name="filter" checked="checked"/>
+		</div>
+
+	<div class="choice">
+        <label for="illustrations">Ilustracje</label>
+        <input class="nav-menu" id="illustrations" type="radio" name="filter"/>
+	</div>
+     <div class="choice">
+        <label class="nav-menu" for="posters">Plakaty</label>
+        <input class="nav-menu" id="posters" type="radio" name="filter"/>
+	</div>
+     <div class="choice">
+        <label for="typography">Typografia</label>
+        <input class="nav-menu" id="typography" type="radio" name="filter"/>
+	</div>
+     <div class="choice">
+        <label for="packaging">Opakowania</label>
+		 <input class="nav-menu" id="packaging" type="radio" name="filter"/>
+	</div>
+</div>
+
+	
+        <section class="portfolio" style="clear: both;">
+            <figure class="four columns all poster" data category="ilustracje">
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </figcaption>
+            </figure>
+        </section> 
+        <section>
+        </section>
+    </form>
+
+    <footer class="container clearfix">
+        <div id="footer">
+            <ul>
+                <li class="contact-name">Piotr Niewiadomski</li>
+                <li class="contact-phone">(+48) 600-700-800</li>
+                <li class="contact-email">piotrek@niewiadomski.pl</li>
+            </ul>
+        
+        
+        
+            <p class="copyright">Piotr Niewiadomski</p>
+            <ul>
+                <span class="foot-ico">
+    Facebook <i class="fab fa-facebook-f"></i></br>
+    Twitter <i class="fab fa-twitter"></i></a></br>
+    </span>
+            </ul>
+        </div>
+    </footer>
+</body>
